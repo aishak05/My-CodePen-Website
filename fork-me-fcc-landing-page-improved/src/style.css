@@ -1,0 +1,139 @@
+body{
+  background-color:pink;
+}
+
+#Pricing{
+  text-align:center;
+}
+
+#form{
+ margin-top:50px;
+ margin-left:500px;
+}
+
+.Maskitem1 { grid-area: left;
+text-align:center;}
+.Maskitem2 { grid-area: middle;
+text-align:center;}
+.Maskitem3 { grid-area: right;
+text-align:center;}
+
+
+.Mask-grid-container {
+  display: grid;
+  grid-template-areas:
+     'left middle right';
+  grid-gap: 20px;
+  padding: 30px;
+  margin-left: 100px;
+  
+}
+
+
+
+.pricingitem1 { grid-area: left;
+ border: solid 2px grey;
+padding:20px;
+text-align: center;}
+.pricingitem2 { grid-area: middle;
+  border: solid 2px grey;
+padding:20px;
+text-align: center;}
+.pricingitem3 { grid-area: right;
+  border: solid 2px grey;
+padding:20px;
+text-align: center;}
+
+
+.pricing-grid-container {
+  display: grid;
+  grid-template-areas:
+     'left middle right';
+  grid-gap: 1px;
+  padding: 10px;
+  font-size:20px;
+
+ 
+}
+
+.item1 { grid-area: left; }
+.item2 { grid-area: middle-left;
+         text-align:right;
+         margin-top:40px;
+         margin-right:10px; }
+.item3 { grid-area: middle-right;}
+.item4 { grid-area: right;}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+     'left middle-left middle-right right';
+  grid-gap: 1px;
+  padding: 1px;
+  
+  
+}
+
+.grid-container > div {
+  background-color:pink;
+  padding: 10px 10px 0px;
+  font-size: 50px;
+}
+
+
+#header-img{
+  display: block;
+  margin-right: auto;
+ 
+}
+
+#caption{
+  margin-left:500px;
+  font-size:20px;
+  
+}
+
+.nav{
+  position: fixed; 
+  top: 0; 
+  width: 100%;
+  
+}
+.nav-link{
+  margin:10px;
+  text-decoration:none;
+  color:grey;
+  font-size:20px; 
+  display: inline;
+}
+
+li{
+   display: inline;
+}
+.video-page{
+  margin-left:380px;
+  margin-top:80px;
+}
+
+#Face-Mask-text{
+  font-size:35px;
+  color:black;
+  font-weight:bold;
+  text-align:center;
+
+}
+
+#Pricing{
+  font-size:35px;
+  color:black;
+  font-weight:bold;
+
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+
+  #email{
+    display:flex; 
+}
